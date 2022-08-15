@@ -1,13 +1,14 @@
 import React from 'react'
+// import styles from '../Components.module.scss'
 
 const CityCard = () => {
   return (
-    <div>
+    <div className="p-8 border border-primary rounded-xl w-72 text-center">
       <h1>16°C</h1>
       <h3>Облачно</h3>
       <h3>Макс.:24°C, Мин.:13°C</h3>
       <svg
-        className="umbrella"
+        className="umbrella "
         xmlns="http://www.w3.org/2000/svg"
         width="32"
         height="32"
