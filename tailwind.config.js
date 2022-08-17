@@ -5,9 +5,6 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
-      colors: {
-        primary: '#004DFF',
-      },
       width: {
         160: '50rem',
       },

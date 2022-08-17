@@ -3,8 +3,10 @@ import React from 'react'
 
 const CityCard = () => {
   return (
-    <div className="p-8 border border-primary rounded-xl w-72 text-center">
-      <h1>16°C</h1>
+    <div className="border border-gray-500/10 p-8 shadow-md shadow-blue-600/20 rounded-lg w-72 text-center">
+      <h1 className="font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-600">
+        16°C
+      </h1>
       <h3>Облачно</h3>
       <h3>Макс.:24°C, Мин.:13°C</h3>
       <svg

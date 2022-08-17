@@ -4,6 +4,7 @@ import './index.css'
 import reportWebVitals from './reportWebVitals'
 // import CityCard from './components/cityCard'
 import Header from './components/header'
+//import MainArea from './components/mainArea'
 import CardsArea from './components/cardsArea'
 import Search from './components/search'
 
