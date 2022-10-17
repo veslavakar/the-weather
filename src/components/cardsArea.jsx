@@ -45,7 +45,6 @@ const mainCities = [
 ]
 const CardsArea = () => {
   return (
-    // <div className="grid grid-cols-3 place-items-center">
     <div className="flex justify-around mx-28 my-16">
       {mainCities.map((city) => (
         <CityCard key={city.id} {...city} />

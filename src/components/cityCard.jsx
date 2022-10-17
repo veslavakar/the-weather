@@ -3,7 +3,7 @@ import { ReactComponent as CloudIcon } from '../assets/cloud_icon.svg'
 
 const propsCard = (props) => {
   return (
-    <div className="border border-gray-500/10 p-8 shadow-md shadow-blue-600/20 rounded-lg w-72 text-center h-100 font-bold">
+    <button className="border border-gray-500/10 p-8 shadow-md shadow-blue-600/20 rounded-lg w-72 text-center h-100 font-bold hover:scale-110 hover:shadow-green-400/40 transition-all">
       <h1 className="font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-600 my-1">
         {props.temperature}
       </h1>
@@ -19,7 +19,7 @@ const propsCard = (props) => {
         <h3>{props.weekDay}</h3>
         <h3>{props.date}</h3>
       </div>
-    </div>
+    </button>
   )
 }
 

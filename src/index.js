@@ -2,18 +2,12 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import reportWebVitals from './reportWebVitals'
-// import CityCard from './components/cityCard'
-import Header from './components/header'
-//import MainArea from './components/mainArea'
-import CardsArea from './components/cardsArea'
-import Search from './components/search'
+import App from './components/App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
-    <Header />
-    <Search />
-    <CardsArea />
+    <App />
   </React.StrictMode>
 )
 
